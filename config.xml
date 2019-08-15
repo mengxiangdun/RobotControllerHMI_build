@@ -1,6 +1,6 @@
 <ControlServer>
     <InterfaceRoot>
-        <Dashboard name="手动操作" editable="false" id="NihtPEvZR">
+        <Dashboard name="手动操作" editable="true" id="NihtPEvZR">
             <Cell name="手动笛卡尔坐标系" type="JogCoordinate" id="Om2tEEDZg" width="7" height="15" x="0" y="0"></Cell>
             <Cell name="三维视图" type="3DView" id="Om2tPPvWgz" width="20" height="12" x="7" y="3"></Cell>
             <Cell name="手动关节坐标系" type="JogJoint" id="di2tPEvWRm" width="7" height="15" x="41" y="0"></Cell>
