@@ -10,7 +10,7 @@
             <Cell name="机器人状态" type="RobotStatus" id="gM7zHQDWRz" width="9" height="3" x="21" y="0"></Cell>
             <Cell name="手动切换" type="ManualSwitch" id="JxG_pwDWgz" width="14" height="3" x="7" y="0"></Cell>
             <Cell name="调试面板" type="Debugger" id="JxGXpwDWgz" width="14" height="12" x="27" y="3">
-                <Option name="command" value="rc&#xA;"></Option>
+                <Option name="command" value="get&#xA;"></Option>
             </Cell>
         </Dashboard>
         <Dashboard name="编程控制" editable="true" id="5uha_EvWR">
@@ -36,10 +36,10 @@
             <Cell name="监控图表" type="Logger" id="M9EU_PvWRM" width="25" height="9" x="23" y="6"></Cell>
         </Dashboard>
         <Dashboard name="调试面板" editable="false" id="MrEUXEDWR">
-            <Cell name="调试面板" type="Debugger" id="JxGXpwDWgz" width="25" height="10" x="0" y="0">
-                <Option name="command" value="j1 --direction=1 --vel_percent=100&#xA;j2 --direction=1 --vel_percent=100&#xA;j3 --direction=1 --vel_percent=100&#xA;j4 --direction=1 --vel_percent=100&#xA;"></Option>
+            <Cell name="调试面板" type="Debugger" id="JxGXpwDWgz" width="47" height="11" x="0" y="0">
+                <Option name="command" value="get"></Option>
             </Cell>
-            <Cell name="实时画图 " type="RealtimeChart" id="RxGXpwDWgz" width="23" height="10" x="25" y="0">
+            <Cell name="实时画图 " type="RealtimeChart" id="RxGXpwDWgz" width="23" height="10" x="25" y="11">
                 <Option name="channel" value="JxGXpwDWgz"></Option>
                 <Option name="dataKey" value="cmd_response_time"></Option>
             </Cell>
