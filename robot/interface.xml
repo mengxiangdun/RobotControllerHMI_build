@@ -6,13 +6,12 @@
     </Dashboard>
     <Dashboard name="参数标定" editable="true" id="MrEUXXDAR">
         <Cell name="手动笛卡尔坐标系" type="JogCoordinate" id="Om2tEEDZg" width="7" height="14" x="0" y="0" options="{}"></Cell>
-        <Cell name="手动关节坐标系" type="JogJoint" id="di2tPEvWRm" width="5" height="10" x="43" y="4" options="{&#34;jogList&#34;:7}"></Cell>
+        <Cell name="手动关节坐标系" type="JogJoint" id="di2tPEvWRm" width="5" height="8" x="43" y="6" options="{&#34;jogList&#34;:7}"></Cell>
         <Cell name="工具坐标系标定" type="ToolCalib" id="JeGXpwDGgz" width="36" height="14" x="7" y="0" options="{}"></Cell>
         <Cell name="零点标定" type="ZeroCalib" id="JeGXpwDGgz2" width="36" height="9" x="7" y="14" options="{}"></Cell>
         <Cell name="整机动力学标定" type="MotionCalib" id="JeGXpwDGgzMM" width="14" height="9" x="14" y="23" options="{}"></Cell>
         <Cell name="末端负载标定" type="LoadCalib" id="JeGXpwDGgzMxM" width="14" height="9" x="0" y="23" options="{}"></Cell>
-        <Cell name="ON/OFF" type="ManualSwitch" id="9_P4itcZgz" width="5" height="4" x="43" y="0" options="{}"></Cell>
-        <Cell name="3D View" type="3DView" id="m5E0yxcZgz" width="16" height="9" x="28" y="23" options="{}"></Cell>
+        <Cell name="ON/OFF" type="ManualSwitch" id="9_P4itcZgz" width="5" height="6" x="43" y="0" options="{}"></Cell>
     </Dashboard>
     <Dashboard name="编程操作" editable="true" id="NihtPEvZR">
         <Cell name="手动笛卡尔坐标系" type="JogCoordinate" id="Om2tEEDZg" width="7" height="11" x="28" y="5" options="{}"></Cell>
